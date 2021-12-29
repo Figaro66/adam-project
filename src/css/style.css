@@ -386,18 +386,21 @@ footer .column i+i {
 .section-5 .container .card .imgBx,
 .section-5 .container .card .contentBx {
     position: absolute;
-    top: 0;
-    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
 }
 
 .section-5 .container .card .imgBx img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    width: 60%;
+    height: 60%;
     object-fit: cover;
 }
 
@@ -420,12 +423,6 @@ footer .column i+i {
     transition: transform 0.5s ease-in-out;
     transform-origin: left;
     transition-delay: 0s;
-}
-
-.section-5 .container .card .contentBx {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .section-5 .container .card .contentBx .content {
@@ -708,4 +705,8 @@ footer .column i+i {
 
 .section-7 #road {
     z-index: 2;
+}
+
+.section-10 {
+    padding: 20vmin 0;
 }
